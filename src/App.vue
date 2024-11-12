@@ -5,5 +5,10 @@
 	<router-view></router-view>
 </template>
 
-<style scoped>
+<style lang="scss">
+@use "./scss/colors.scss";
+
+#app {
+	background-color: colors.$color-dark;
+}
 </style>
